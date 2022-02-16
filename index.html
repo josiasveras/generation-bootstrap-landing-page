@@ -12,13 +12,18 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- import fontawesome  -->
         <link rel="stylesheet" href="assets/fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- import google fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
         <title>Ada Lovelace</title>
     </head>
 
     <body>
         <div class="container-fluid m-0 p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <a class="navbar-brand" href="#">Ada Lovelace</a>
+                <a class="navbar-brand" href="#sobre">Ada Lovelace</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,7 +31,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#sobre">Sobre <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#infancia">Infância</a>
@@ -44,19 +52,32 @@
                 </div>
             </nav>
 
+            <!-- inicio da seção home -->
+            <section class="row m-0 py-4 vh-100 bg-image" style="background-image: url('assets/imagens/ada.jpg'); height: 100vh" id="home">
+                <div class="container">
+                    <div class="row">
+                        <!-- Background image -->
+                        <div class="col-12" >
+                            <h1 class="bg-secondary text-uppercase text-white">A primeira programadora de todos os tempos</h1>
+                        </div>
+                        <!-- Background image -->
+                    </div>
+                </div>
+            </section>
+            <!-- fim da seção home -->
             <!-- inicio da seção sobre -->
-            <section class="row bg-white m-0 py-4 vh-100" id="sobre">
+            <section class="row bg-secondary m-0 py-4 vh-100" id="infancia">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="assets/imagens/ada.jpg" alt="Imagem de Ada Lovelace" class="img-fluid m-0">
+                            <span class="text-white">Aqui vai o conteúdo</span>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- fim da seção sobre  -->
             <!-- inicio da seção infancia -->
-            <section class="row bg-dark m-0 py-4 vh-100" id="infancia">
+            <section class="row bg-light m-0 py-4 vh-100" id="infancia">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -67,7 +88,7 @@
             </section>
             <!-- fim da seção infancia  -->
             <!-- inicio da seção vida-adulta -->
-            <section class="row bg-light m-0 py-4 vh-100" id="vida-adulta">
+            <section class="row bg-secondary m-0 py-4 vh-100" id="vida-adulta">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -78,7 +99,7 @@
             </section>
             <!-- fim da seção vida-adulta -->
             <!-- inicio da seção educacao -->
-            <section class="row bg-dark m-0 py-4 vh-100" id="educacao">
+            <section class="row bg-light m-0 py-4 vh-100" id="educacao">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -89,7 +110,7 @@
             </section>
             <!-- fim da seção educacao -->
             <!-- inicio da seção legado -->
-            <section class="row bg-light m-0 py-4 vh-100" id="legado">
+            <section class="row bg-secondary m-0 py-4 vh-100" id="legado">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -177,7 +198,7 @@
 
                                     <ul class="list-unstyled mb-0">
                                         <li>
-                                            <a href="#sobre" class="text-white">Sobre</a>
+                                            <a href="#home" class="text-white">Home</a>
                                         </li>
                                         <li>
                                             <a href="#infancia" class="text-white">Infância</a>
