@@ -1,4 +1,12 @@
+* {
+    font-family: 'EB Garamond', serif;
+}
+
 .home-img-bg{
     background-image: url(imagens/ada.jpg);
     background-size: contain;
+}
+
+h1 {
+    font-weight: 900;
 }
