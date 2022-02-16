@@ -5,38 +5,210 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- import bootstrap  -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
             integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <title>Document</title>
+        <!-- import css  -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- import fontawesome  -->
+        <link rel="stylesheet" href="assets/fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+        <title>Ada Lovelace</title>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid d-flex justify-content-center">
-                <div class="row">
-                    <div class="col-3">
-                        <a class="navbar-brand" href="#">Ada Lovelace</a>
-                    </div>
-                    <div class="col-8">
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link" href="#">Infância</a>
-                                <a class="nav-link" href="#">Vida Adulta</a>
-                                <a class="nav-link" href="#">Educação</a>
-                                <a class="nav-link" href="#">Legado</a>
-                            </div>
+        <div class="container-fluid m-0 p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                <a class="navbar-brand" href="#">Ada Lovelace</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#sobre">Sobre <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#infancia">Infância</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#vida-adulta">Vida Adulta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#educacao">Educação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#legado">Legado</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- inicio da seção sobre -->
+            <section class="row bg-white m-0 py-4 vh-100" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="assets/imagens/ada.jpg" alt="Imagem de Ada Lovelace" class="img-fluid m-0">
                         </div>
                     </div>
-                    <div class="col-1">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                </div>
+            </section>
+            <!-- fim da seção sobre  -->
+            <!-- inicio da seção infancia -->
+            <section class="row bg-dark m-0 py-4 vh-100" id="infancia">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Aqui vai o conteúdo</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </section>
+            <!-- fim da seção infancia  -->
+            <!-- inicio da seção vida-adulta -->
+            <section class="row bg-light m-0 py-4 vh-100" id="vida-adulta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Aqui vai o conteúdo</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fim da seção vida-adulta -->
+            <!-- inicio da seção educacao -->
+            <section class="row bg-dark m-0 py-4 vh-100" id="educacao">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Aqui vai o conteúdo</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fim da seção educacao -->
+            <!-- inicio da seção legado -->
+            <section class="row bg-light m-0 py-4 vh-100" id="legado">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="text-white">Aqui vai o conteúdo</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fim da seção legado -->
+            <!-- inicio da seção footer -->
+            <footer class="bg-dark text-center text-white">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+
+                        <!-- Linkedin -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jorzias-veras-62388b127" target="_blank" role="button">
+                            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                        </a>
+
+                        <!-- Github -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/josiasveras" target="_blank" role="button">
+                            
+                            <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </section>
+                    <!-- Section: Social media -->
+
+                    <!-- Section: Form -->
+                    <section class="">
+                        <form action="">
+                            <!--Grid row-->
+                            <div class="row d-flex justify-content-center">
+                                <!--Grid column-->
+                                <div class="col-auto">
+                                    <p class="pt-2">
+                                        <strong>Mais informações:</strong>
+                                    </p>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-5 col-12">
+                                    <!-- Email input -->
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="email" id="form5Example21" class="form-control" />
+                                        <label class="form-label" for="form5Example21">Seu email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-auto">
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                        Enviar
+                                    </button>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                        </form>
+                    </section>
+                    <!-- Section: Form -->
+
+                    <!-- Section: Text -->
+                    <section class="mb-4">
+                        <p>
+                            Ada Lovelace foi a primeira a utilizar um programa em algoritmo e a tomar conhecimento da importância dos algoritmos na construção de um software.
+                            Por isso, muitas das evoluções tecnológicas que vieram depois dos estudos de Ada só foram possíveis devido às descobertas dela.
+                        </p>
+                    </section>
+                    <!-- Section: Text -->
+
+                    <!-- Section: Links -->
+                    <section class="">
+                        <!--Grid container-->
+                        <div class="container">
+                            <!--Grid row-->
+                            <div class="row d-flex justify-content-center">
+                                <!--Grid column-->
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Links</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#sobre" class="text-white">Sobre</a>
+                                        </li>
+                                        <li>
+                                            <a href="#infancia" class="text-white">Infância</a>
+                                        </li>
+                                        <li>
+                                            <a href="#vida-adulta" class="text-white">Vida Adulta</a>
+                                        </li>
+                                        <li>
+                                            <a href="#legado" class="text-white">Legado</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                        </div>
+                        <!--Grid container-->
+                    </section>
+                    <!-- Section: Links -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2020 Copyright:
+                    <a class="text-white" href="https://github.com/josiasveras">Jorzias Veras</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- fim da seção footer -->
+        </div>
     </body>
 
 </html>
